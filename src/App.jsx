@@ -75,6 +75,7 @@ function App() {
   const clearLetterStates = () => {
     setGuessedLetters([])
     setWrongLetters([])
+    setGuesses(7)
   }
 
   useEffect(() => {
