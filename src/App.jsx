@@ -44,8 +44,6 @@ function App() {
     let wordLetters = wordSelected.split('')
     wordLetters = wordLetters.map((l) => l.toLowerCase())
 
-    console.log(wordSelected, category, wordLetters)
-
     setPickedWord(wordSelected)
     setPickedCategory(category)
     setPickedLetters(wordLetters)
